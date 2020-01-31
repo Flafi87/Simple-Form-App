@@ -1,0 +1,7 @@
+export const REGISTER_FIELD = "REGISTER_FIELD";
+export const UPDATE_SYNC_ERRORS = "UPDATE_SYNC_ERRORS";
+export const FOCUS = "FOCUS";
+export const BLUR = "BLUR";
+export const CHANGE = "CHANGE";
+export const SET_SUBMIT_SUCCEEDED = "SET_SUBMIT_SUCCEEDED";
+export const SET_SUBMIT_FAILED = "SET_SUBMIT_FAILED";
