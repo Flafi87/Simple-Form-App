@@ -20,7 +20,7 @@ mongoose
     .catch(err => console.log(err));
 
 // Use Routes
-app.use("/api/events", require("./routes/postRoute"));
+app.use("/api/events", require("./routes/event"));
 
 const port = process.env.PORT || 5000;
 
