@@ -1,104 +1,147 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`My Connected React-Redux Component should render with given state from Redux store 1`] = `
+exports[`My Connected React-Redux Component should match snapshot 1`] = `
 <div
-  className="App"
+  className="container"
 >
-  <header
-    className="App-header"
+  <div
+    className="App"
   >
-    <h1>
-      Simple Form App
-    </h1>
-  </header>
-  <form
-    onSubmit={[Function]}
-  >
-    <div>
-      <div>
-        <label>
-          First Name
-        </label>
-        <div>
-          <input
-            name="firstName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onDragStart={[Function]}
-            onDrop={[Function]}
-            onFocus={[Function]}
-            placeholder="First Name"
-            type="text"
-            value=""
-          />
-        </div>
-      </div>
-    </div>
-    <div>
-      <div>
-        <label>
-          Last Name
-        </label>
-        <div>
-          <input
-            name="secondName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onDragStart={[Function]}
-            onDrop={[Function]}
-            onFocus={[Function]}
-            placeholder="Last Name"
-            type="text"
-            value=""
-          />
-        </div>
-      </div>
-    </div>
-    <div>
-      <div>
-        <label>
-          Email
-        </label>
-        <div>
-          <input
-            name="email"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onDragStart={[Function]}
-            onDrop={[Function]}
-            onFocus={[Function]}
-            placeholder="Email"
-            type="email"
-            value=""
-          />
-        </div>
-      </div>
-    </div>
-    <div>
-      <div>
-        <label>
-          Event Date
-        </label>
-        <div>
-          <input
-            name="eventDate"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onDragStart={[Function]}
-            onDrop={[Function]}
-            onFocus={[Function]}
-            placeholder="Event Date"
-            type="date"
-            value=""
-          />
-        </div>
-      </div>
-    </div>
-    <button
-      type="submit"
+    <div
+      className="justify-content-md-center row"
     >
-      Submit
-    </button>
-  </form>
+      <header
+        className="App-header"
+      >
+        <h1>
+          Simple Form App
+        </h1>
+      </header>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <form
+          className=""
+          onSubmit={[Function]}
+        >
+          <div
+            className="form-group"
+          >
+            <div
+              className="form-group"
+            >
+              <label>
+                First Name
+              </label>
+              <div
+                className="form-group"
+              >
+                <input
+                  name="firstName"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onDragStart={[Function]}
+                  onDrop={[Function]}
+                  onFocus={[Function]}
+                  placeholder="First Name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="form-group"
+          >
+            <div
+              className="form-group"
+            >
+              <label>
+                Last Name
+              </label>
+              <div
+                className="form-group"
+              >
+                <input
+                  name="secondName"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onDragStart={[Function]}
+                  onDrop={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Last Name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="form-group"
+          >
+            <div
+              className="form-group"
+            >
+              <label>
+                Email
+              </label>
+              <div
+                className="form-group"
+              >
+                <input
+                  name="email"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onDragStart={[Function]}
+                  onDrop={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Email"
+                  type="email"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="form-group"
+          >
+            <div
+              className="form-group"
+            >
+              <label>
+                Event Date
+              </label>
+              <div
+                className="form-group"
+              >
+                <input
+                  name="eventDate"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onDragStart={[Function]}
+                  onDrop={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Event Date"
+                  type="date"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
 `;

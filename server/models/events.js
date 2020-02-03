@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const PostSchema = new Schema({
+const EventSchema = new Schema({
 
     firstName: {
         type: String,
@@ -22,4 +22,4 @@ const PostSchema = new Schema({
 
 });
 
-module.exports = Post = mongoose.model("Events", PostSchema);
+module.exports = Events = mongoose.model("Events", EventSchema);
