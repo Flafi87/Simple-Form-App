@@ -30,7 +30,7 @@ function App({ addEvent, error }) {
 
 App.propTypes = {
   addEvent: PropTypes.func.isRequired,
-  error: PropTypes.func.isRequired,
+  error: PropTypes.string.isRequired,
 };
 
 const mapStateToProps = (state) => ({
